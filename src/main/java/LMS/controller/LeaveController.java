@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.controller;
+package LMS.controller;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 //import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import cy.ac.ucy.cs.epl425.LMS.model.Leave;
-import cy.ac.ucy.cs.epl425.LMS.service.LeaveService;
+import LMS.model.Leave;
+import LMS.service.LeaveService;
 
 @RequestMapping("/api")
 @RestController

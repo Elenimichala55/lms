@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.controller;
+package LMS.controller;
 
 import java.util.List;
 
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 //import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import cy.ac.ucy.cs.epl425.LMS.model.Employee;
-import cy.ac.ucy.cs.epl425.LMS.service.EmployeeService;
+import LMS.model.Employee;
+import LMS.service.EmployeeService;
 
 @RequestMapping("/api")
 @RestController

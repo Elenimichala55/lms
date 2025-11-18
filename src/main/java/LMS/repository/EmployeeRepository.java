@@ -1,9 +1,9 @@
-package cy.ac.ucy.cs.epl425.LMS.repository;
+package LMS.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import cy.ac.ucy.cs.epl425.LMS.model.Employee;
+import LMS.model.Employee;
 import java.util.List;
 
 // We can use CrudRepository’s methods: save(), findOne(), findById(), 

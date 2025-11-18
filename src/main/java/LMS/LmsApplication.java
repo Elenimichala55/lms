@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS;
+package LMS;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

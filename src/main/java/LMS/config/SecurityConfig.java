@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.config;
+package LMS.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -31,7 +31,7 @@ public class SecurityConfig {
         List<UserDetails> userDetailsList = new ArrayList<>();
 
         userDetailsList.add(User.withUsername("jsmith")
-                .password(passwordEncoder().encode("epl42$"))
+                .password(passwordEncoder().encode("12345$"))
                 .roles("EMPLOYEE")
                 .build());
 

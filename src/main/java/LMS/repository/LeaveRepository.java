@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.repository;
+package LMS.repository;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import cy.ac.ucy.cs.epl425.LMS.model.Leave;
+import LMS.model.Leave;
 
 @Repository
 public interface LeaveRepository extends CrudRepository<Leave, Integer> {

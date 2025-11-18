@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.service;
+package LMS.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import cy.ac.ucy.cs.epl425.LMS.repository.EmployeeRepository;
-import cy.ac.ucy.cs.epl425.LMS.model.Employee;
+import LMS.repository.EmployeeRepository;
+import LMS.model.Employee;
 
 @Service
 public class EmployeeService {

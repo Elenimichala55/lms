@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.model;
+package LMS.model;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package cy.ac.ucy.cs.epl425.LMS.service;
+package LMS.service;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import cy.ac.ucy.cs.epl425.LMS.repository.LeaveRepository;
-import cy.ac.ucy.cs.epl425.LMS.model.Leave;
+import LMS.repository.LeaveRepository;
+import LMS.model.Leave;
 
 @Service
 public class LeaveService {
