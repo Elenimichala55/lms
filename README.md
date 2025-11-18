@@ -95,37 +95,6 @@ GET /api/leaves — view all leaves
 PUT /api/leaves/{id} — approve/update leave (Employee/Manager)
 DELETE /api/leaves/{id} — delete leave (Manager only)
 
-## Project Structure
-.
-├── HELP.md
-├── mvnw
-├── mvnw.cmd
-├── pom.xml
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── LMS
-│   │   │       ├── LmsApplication.java
-│   │   │       ├── config
-│   │   │       │   └── SecurityConfig.java
-│   │   │       ├── controller
-│   │   │       │   ├── EmployeeController.java
-│   │   │       │   └── LeaveController.java
-│   │   │       ├── model
-│   │   │       │   ├── Employee.java
-│   │   │       │   └── Leave.java
-│   │   │       ├── repository
-│   │   │       │   ├── EmployeeRepository.java
-│   │   │       │   └── LeaveRepository.java
-│   │   │       └── service
-│   │   │           ├── EmployeeService.java
-│   │   │           └── LeaveService.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       ├── static
-│   │       │   ├── css
-│   │       │   │   └── custom.css
-│   │       │   ├── index.html
-│   │       │   └── js
-│   │       │       └── script.js
-│   │       └── templates
+## License
+This project is released under the MIT License.
+
