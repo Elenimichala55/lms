@@ -112,3 +112,5 @@ This project is released under the MIT License.
 
 ## Author
 Eleni Michala
+- MSc Applied Artificial Intelligence — University of Warwick
+- BSc Computer Science — University of Cyprus
