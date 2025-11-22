@@ -18,8 +18,8 @@ Employees can request leaves, managers can approve or reject them, and all data 
 ### Security
 - Role-based access control (RBAC)
 - In-memory authentication for:
-- - EMPLOYEE
-- - MANAGER
+   - EMPLOYEE
+   - MANAGER
 - Secured API endpoints using Spring Security
 
 ## Database Structure
@@ -110,3 +110,5 @@ DELETE /api/leaves/{id} — delete leave (Manager only)
 ## License
 This project is released under the MIT License.
 
+## Author
+Eleni Michala
