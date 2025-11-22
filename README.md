@@ -54,11 +54,14 @@ Employees can request leaves, managers can approve or reject them, and all data 
 ## Installation & Setup
 
 1. Clone the repository
-  git clone https://github.com/Elenimichala55/lms.git
+```bash
+git clone https://github.com/Elenimichala55/lms.git
   cd lms
+```
 
-2. Configure MySQL connection
+3. Configure MySQL connection
    Edit src/main/resources/application.properties:
+```bash
   spring.datasource.url=jdbc:mysql://localhost:3306/lms
   spring.datasource.username=your_mysql_user
   spring.datasource.password=your_mysql_password
@@ -67,12 +70,17 @@ Employees can request leaves, managers can approve or reject them, and all data 
   spring.sql.init.mode=always
   spring.sql.init.schema-locations=classpath:schema.sql
   spring.sql.init.data-locations=classpath:data.sql
+```
 
 3. Create the database:
+```bash
    CREATE DATABASE lms;
+```
 
-4. Run the application
+5. Run the application
+```bash
    ./mvnw spring-boot:run
+```
 
 ## Default Users (In-Memory)
 
@@ -84,16 +92,20 @@ Employees can request leaves, managers can approve or reject them, and all data 
 
 ## API Endpoints
 ### Employees
+```  
 GET /api/employees — view all employees
 POST /api/employees — create employee (Manager only)
 PUT /api/employees/{id} — update employee (Manager only)
 DELETE /api/employees/{id} — delete employee (Manager only)
+```
 
 ### Leaves
+```
 POST /api/leaves/employees/{id} — request leave
 GET /api/leaves — view all leaves
 PUT /api/leaves/{id} — approve/update leave (Employee/Manager)
 DELETE /api/leaves/{id} — delete leave (Manager only)
+```
 
 ## License
 This project is released under the MIT License.
