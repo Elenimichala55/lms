@@ -56,7 +56,7 @@ Employees can request leaves, managers can approve or reject them, and all data 
 1. Clone the repository
 ```bash
 git clone https://github.com/Elenimichala55/lms.git
-  cd lms
+cd lms
 ```
 
 3. Configure MySQL connection
